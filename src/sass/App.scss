@@ -1,0 +1,26 @@
+@import "./colors";
+@import "./layout";
+@import "./main";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+// ----> light mode property
+:root {
+  --bg: #{$bg-light};
+  --l1: #{$l1-light};
+  --l2: #{$l2-light};
+  --text: #{$text-light};
+}
+
+// ----> dark mode property
+.dark {
+  --bg: #{$bg-dark};
+  --l1: #{$l1-dark};
+  --l2: #{$l2-dark};
+  --text: #{$text-dark};
+}

@@ -1,0 +1,11 @@
+@mixin flex-box($jc, $dir) {
+  display: flex;
+  flex-direction: $dir;
+  justify-content: $jc;
+  align-items: center;
+}
+
+@mixin gradient($bg, $l1, $l2) {
+  background: $bg;
+  background: linear-gradient(90deg, $l1, $l2);
+}

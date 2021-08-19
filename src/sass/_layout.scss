@@ -1,0 +1,27 @@
+@import "./colors";
+@import "./mixins.scss";
+
+.app {
+  @include gradient(var(--bg), var(--l1), var(--l2));
+  color: var(--text);
+  height: 100vh;
+}
+
+.header {
+  color: var(--text);
+}
+
+.nav {
+  @include flex-box($jc: center, $dir: row);
+  padding: 25px 0 5rem 0;
+}
+
+.switch {
+  padding: 0 8px 0 7px;
+}
+
+.footer {
+  text-align: center;
+  padding: 7rem 0 15px 0;
+  color: var(--text);
+}

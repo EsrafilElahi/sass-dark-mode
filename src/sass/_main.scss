@@ -1,0 +1,16 @@
+@import "./colors";
+@import "./mixins";
+
+.main {
+  @include flex-box($jc: center, $dir: column);
+  color: var(--text);
+  max-width: 30rem;
+  letter-spacing: 1px;
+  line-height: 25px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.main-title {
+  padding-bottom: 20px;
+}
